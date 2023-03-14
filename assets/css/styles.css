@@ -1,0 +1,122 @@
+:root {
+  --pinkhs: #be185d;
+  --softgray: #d6d3d1;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.main_article {
+  width: 375px;
+  height: 2429px;
+}
+.first-title {
+  width: 343px;
+  height: 120px;
+  margin: 48px 16px 0 16px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.first-content {
+  width: 343px;
+  height: 352px;
+  margin: 32px 16px 0 16px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.fstrong {
+  font-weight: 600;
+}
+
+.second-title {
+  width: 343px;
+  height: 40px;
+  margin: 56px 16px 0 16px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.second-content {
+  width: 343px;
+  height: 384px;
+  margin: 24px 16px 0 16px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.flink {
+  color: var(--pinkhs);
+  font-weight: 400px;
+}
+.flistc {
+  margin: 24px 16px 0 16px;
+  width: 343px;
+  height: 216px;
+}
+.first-list {
+  margin: 15px 16px 0 16px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.third-content {
+  width: 343px;
+  height: 160px;
+  margin: 24px 16px 0 16px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.first-quote {
+  width: 343px;
+  height: 160px;
+  margin: 24px 16px 0 16px;
+  padding: 16px 18px 16px 18px;
+  border-radius: 8px;
+  background-color: var(--softgray);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-style: italic;
+}
+.first-img-container {
+  width: 343px;
+  height: 341px;
+  margin: 32px 16px 0 16px;
+  border-radius: 8px;
+  background-image: url(/assets/images/image.png);
+}
+.ffcaption {
+  width: 343px;
+  height: 24px;
+  margin: 16px 16px 0 16px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.third-title {
+  width: 343px;
+  height: 40px;
+  margin: 56px 16px 0 16px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+.fourth-content {
+  width: 343px;
+  height: 160px;
+  margin: 24px 16px 72px 16px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
