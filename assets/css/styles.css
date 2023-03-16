@@ -3,11 +3,34 @@
   --softgray: #d6d3d1;
   --softblack: #44403c;
   --white: #ffffff;
+  --graywhite: #F3F4F6;
 }
 * {
   margin: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+}
+.nav_cont{
+  background-color: var(--graywhite);
+  padding: 16px 0 16px 0;
+}
+.nav_body{
+  max-width: 1047px;
+  display: flex;
+  place-content:center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 21px 0 21px;
+}
+.my_name{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+}
+.nav_options{
+  margin-top: 10px;
+  width: 24px;
+  height: 21.33px;
 }
 .container{
   max-width: 738px;
@@ -86,9 +109,13 @@
   font-style: italic;
 }
 .first-img-container {
+  height: 341px;
   margin: 32px 16px 0 16px;
   border-radius: 8px;
   background-image: url(/assets/images/image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .ffcaption {
   margin: 16px 16px 0 16px;
