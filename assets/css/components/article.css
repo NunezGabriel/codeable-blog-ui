@@ -1,0 +1,93 @@
+.container{
+    max-width: 738px;
+    margin: 0 auto;
+  }
+
+  .first-title {
+    margin: 48px 16px 0 16px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  
+  .first-content {
+    margin: 32px 16px 0 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  
+  .fstrong {
+    font-weight: 600;
+  }
+  
+  .second-title {
+    margin: 56px 16px 0 16px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  .second-content {
+    margin: 24px 16px 0 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .flink {
+    color: var(--primary-dark);
+    font-weight: 400px;
+  }
+  .flistc {
+    margin: 24px 16px 0 16px;
+    height: 216px;
+  }
+  .first-list {
+    margin: 15px 16px 0 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .third-content {
+    margin: 24px 16px 0 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .first-quote {
+    margin: 24px 16px 0 16px;
+    padding: 16px 18px 16px 18px;
+    border-radius: 8px;
+    background-color: var(--secondary-light);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: italic;
+  }
+  .first-img-container {
+    height: 341px;
+    margin: 32px 16px 0 16px;
+    border-radius: 8px;
+    background-image: url(/assets/images/image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .ffcaption {
+    margin: 16px 16px 0 16px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .third-title {
+    margin: 56px 16px 0 16px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .fourth-content {
+    margin: 24px 16px 72px 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }

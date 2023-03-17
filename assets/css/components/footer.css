@@ -1,0 +1,11 @@
+  .article-footer {
+    background-color: var(--secondary-dark);
+    padding: 16px 0 16px 0;
+  }
+  .article-footer h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: var(--white);
+  }
