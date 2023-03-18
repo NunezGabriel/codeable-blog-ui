@@ -9,3 +9,32 @@
     text-align: center;
     color: var(--white);
   }
+  .important__footer{
+    padding: 48px 32px 48px 32px;
+    background-color: var(--secondary-light);
+    text-align: center;
+  }
+  .important__footer-title{
+    margin: 0 auto;
+    max-width: 768px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
+  }
+  .important__footer-button{
+    margin: 32px 0 auto;
+    background-color: var(--primary);
+    width: 160px;
+    height: 42px;
+    padding: 8px, 12px, 8px, 12px;
+    border-radius: 8px;
+    border: none;
+    transition: 1s;
+  }
+  .important__footer-button a{
+    color: var(--primary-lighter);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+  }

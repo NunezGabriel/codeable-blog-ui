@@ -9,51 +9,55 @@
     text-align: center;
     color: var(--white);
   }
-  .nav_cont{
-    background-color: var(--background);
-    padding: 16px 0 16px 0;
+  .important__header{
+    padding: 48px 16px 48px 16px;
+    background-color: var(--secondary-light);
   }
-  .nav_body{
-    max-width: 1047px;
-    display: flex;
-    place-content:center;
-    justify-content: space-between;
+  .important__header-title{
     margin: 0 auto;
-    padding: 0 21px 0 21px;
+    max-width: 768px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
   }
-  .my_name{
+  .important__header-title span{
     font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
+    color: var(--primary);
   }
-  .nav_options{
-    margin-top: 10px;
-    width: 24px;
-    height: 21.33px;
+  .important__header-text{
+    margin: 0 auto;
+    max-width: 768px;
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
   }
   /*-----------------------------------*/
-  .home-navbar{
+  .navbar{
     background-color: var(--background);
     padding: 16px;
+    max-width: 768px;
+    margin: 0 auto;
   }
-  .home-navbar h1{
+  .navbar h1{
     margin: 0 105px 0 0;
     font-weight: 600;
     font-size: 30px;
     line-height: 120%;
   }
-  .home-options-container{
+  .navbar-options-container{
     display: flex;
     margin: 16px 105px 0 8px;
     justify-content: space-between;
   }
-  .home-options-container p{
+  .navbar-options-container a{
     color: var(--primary-dark);
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    text-decoration: none;
   }
-  .home-navbar button{
+  .navbar button{
     margin: 16px 105px 0 0;
     background-color: var(--primary);
     width: 102px;
@@ -63,13 +67,13 @@
     border: none;
     transition: 1s;
   }
-  .home-navbar button:hover{
+  .navbar button:hover{
     background-color: var(--primary-dark);
   }
-  .home-navbar button:active{
+  .navbar button:active{
     background-color: var(--secondary-light);
   }
-  .home-navbar button a{
+  .navbar button a{
     color: var(--white);
     text-decoration: none;
   }
