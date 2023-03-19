@@ -1,7 +1,7 @@
   .container{
     max-width: 768px;
     margin: 0 auto;
-    padding: 0 16px 0 16px;
+    padding: 48px 16px;
   }
   .container__skills{
     margin: 0 auto;
@@ -161,7 +161,6 @@
   /*----------------------------------*/
   .article__container-about{
     margin: 24px auto 48px auto;
-    border: 1px solid rebeccapurple;
     width: fit-content;
   }
   .article__container-about-item{
@@ -273,7 +272,7 @@
 }
 .proyect__data-topics{
   display: flex;
-  justify-content: space-between;
+  gap: 8px;
 }
 .data__topic{
   padding: 0 10px 0 10px;
