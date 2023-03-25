@@ -1,10 +1,11 @@
   .container{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 48px 16px;
     display: grid;
     justify-content: center;
   }
+  
   .container__skills{
     margin: 0 auto;
     padding: 48px 16px;
