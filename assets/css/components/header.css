@@ -76,7 +76,7 @@
     line-height: 18px;
   }
   .important__proyect-img{
-    background-image: url("/assets/images/pokemonruby.png");
+    background-image: url("/assets/images/baner.png");
     border-radius: 8px;
     background-position: center;
     background-repeat: no-repeat;
@@ -273,35 +273,3 @@
       justify-content: space-between;
     }
   }
-
-  /*media Q
-  .navbar-options-container{
-    display: flex;
-    margin: 16px 105px 0 8px;
-    gap: 24px;
-  }
-
-  .navbar-options-container a{
-    color: var(--primary-dark);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration: none;
-  }
-  .navbar button{
-    margin: 16px 105px 0 0;
-    background-color: var(--primary);
-    width: 105px;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
-    transition: 0.5s;
-  }
-  .navbar button:hover{
-    background-color: var(--primary-dark);
-  }
-  .navbar button a{
-    color: var(--white);
-    text-decoration: none;
-  }  
-  */

@@ -29,7 +29,7 @@
     padding: 8px, 12px, 8px, 12px;
     border-radius: 8px;
     border: none;
-    transition: 1s;
+    transition: background-color 1s;
   }
   .important__footer-button a{
     color: var(--primary-lighter);
@@ -37,4 +37,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
+  }
+  .important__footer-button:hover{
+    background-color: var(--pink-700);
   }

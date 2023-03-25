@@ -343,6 +343,9 @@
   color: var(--gray-700);
   display: grid;
 }
+/* #option:checked ~ .help-options label {
+  color: var(--primary-dark);
+} */
 .help-container section div label p{
   font-weight: 300;
   font-size: 12px;
@@ -355,6 +358,7 @@
   background-color: var(--primary);
   border-radius: 8px;
   border: none;
+  transition: background-color 1s;
 }
 .send-button a{
   text-decoration: none;
@@ -363,7 +367,9 @@
   font-size: 18px;
   text-align: center;
 }
-
+.send-button:hover{
+  background-color: var(--pink-700);
+}
 
 
 @media (min-width: 700px) {
