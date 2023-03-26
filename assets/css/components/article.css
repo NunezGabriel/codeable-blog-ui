@@ -193,19 +193,19 @@
   /*------------------------------------*/
   .hobbi__imge-container{
     border-radius: 8px;
-    background-image: url(/assets/images/image\ 4.svg);
+    background-image: url(../../images/image\ 4.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .hobbi__imge-two{
-    background-image: url(/assets/images/image\ 5.svg);
+    background-image: url(../../images/image\ 5.svg);
   }
   .hobbi__imge-three{
-    background-image: url(/assets/images/image\ 6.svg);
+    background-image: url(../../images/image\ 6.svg);
   }
   .hobbi__imge-four{
-    background-image: url(/assets/images/image\ 7.svg);
+    background-image: url(../../images/image\ 7.svg);
   }
   .hobbi__text-container{
     margin: 24px 0 24px 0;
