@@ -80,7 +80,7 @@
     background-color: var(--primary-dark);
   }
   .important__proyect-img{
-    background-image: url("/assets/images/baner.png");
+    background-image: url("../../images/baner.png");
     border-radius: 8px;
     background-position: center;
     background-repeat: no-repeat;
@@ -148,16 +148,16 @@
   }
   .teamMate__img-container{
     border-radius: 8px;
-    background-image: url('/assets/images/teammate1.png');
+    background-image: url('../../images/teammate1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .teamMate2{
-    background-image: url('/assets/images/teammate2.png');
+    background-image: url('../../images/teammate2.png');
   }
   .teamMate3{
-    background-image: url('/assets/images/teammate3.png');
+    background-image: url('../../images/teammate3.png');
     background-position: top;
   }
   .teamMate-name{
@@ -176,13 +176,13 @@
     gap: 22px;
   }
   .teamMate-github{
-    background-image: url("/assets/images/githubgray.svg");
+    background-image: url("../../images/githubgray.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .teamMate-linkedin{
-    background-image: url("/assets/images/linkedin.svg");
+    background-image: url("../../images/linkedin.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
