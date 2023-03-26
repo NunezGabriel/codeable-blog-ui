@@ -67,6 +67,7 @@
     padding: 8px, 12px, 8px, 12px;
     border-radius: 8px;
     border: none;
+    transition: background-color 1s;
   }
   .important__proyect-buton a{
     color: var(--primary-lighter);
@@ -74,6 +75,9 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
+  }
+  .important__proyect-buton:hover{
+    background-color: var(--primary-dark);
   }
   .important__proyect-img{
     background-image: url("/assets/images/baner.png");
@@ -144,10 +148,17 @@
   }
   .teamMate__img-container{
     border-radius: 8px;
-    background-image: url('/assets/images/pokemonruby.png');
+    background-image: url('/assets/images/teammate1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .teamMate2{
+    background-image: url('/assets/images/teammate2.png');
+  }
+  .teamMate3{
+    background-image: url('/assets/images/teammate3.png');
+    background-position: top;
   }
   .teamMate-name{
     font-family: Open Sans;
